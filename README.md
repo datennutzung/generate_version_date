@@ -1,3 +1,3 @@
-# calc_version_number
+# Version Number Calculator
 
 Calculates a version number as YYwWWdD
