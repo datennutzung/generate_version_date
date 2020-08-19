@@ -2,15 +2,36 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Generate Version Number</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- External Links -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        
+        <!-- My Customization -->
+        <link rel="stylesheet" type="text/css" href="./style.css">
         <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
-
-        <link type="text/css" rel="stylesheet" href="./style.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="./script.js"></script>
+        <title>Generate Version Date</title>
     </head>
     <body>
-        <span id="version_number"></span>
-        <script type="text/javascript" src="./script.js"></script>
+        <header>
+            <a href="https://datennutzung.github.io/" title="Home">
+                <img src="https://raw.githubusercontent.com/datennutzung/datennutzung/master/logo.png" alt="Logo" class="circle" id="logo" />
+            </a>
+            <h1>Generate Version Date</h1>
+            <a href="https://github.com/datennutzung/generate_version_date/" id="gh_mark">
+                <img src="https://raw.githubusercontent.com/datennutzung/datennutzung/master/GitHubMarkBig.png" alt="GitHub" class="circle"/>
+            </a>
+        </header>
+        <main>
+            <span id="version_date"></span>
+        </main>
+        <footer>
+            &copy; 2020 – Miron Gertis
+        </footer>
     </body>
+    <script type="text/javascript">
+        window.onload = function(e){ 
+            init()
+        }
+    </script>
 </html>

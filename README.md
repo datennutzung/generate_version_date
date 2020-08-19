@@ -1,3 +1,3 @@
-# Version Number Calculator
+# Version Date Generator
 
-Calculates a version number as YYwWWdD
+Generates a version date as YYwWWdD
